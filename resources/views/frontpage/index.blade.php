@@ -205,7 +205,7 @@
                                     <div class="post-content card y-move bordered">
                                         <div class="post-thumbnail">
                                             <a href="/bot-now-listed-in-application-directory/" class="post-list-item-thumb ">
-                                                <img loading="lazy" decoding="async" width="1024" height="753" src="/wp-content/uploads/2024/01/dragon2-1024x753.png" class="attachment-post-thumbnail size-post-thumbnail has-transparency wp-post-image" alt srcset="/wp-content/uploads/2024/01/dragon2-1024x753.png 1024w, /wp-content/uploads/2024/01/dragon2-300x220.png 300w, /wp-content/uploads/2024/01/dragon2-768x564.png 768w, /wp-content/uploads/2024/01/dragon2.png 1045w" sizes="auto, (max-width: 1024px) 100vw, 1024px" data-has-transparency="true" data-dominant-color="8e6646" style="--dominant-color: #8e6646;" /> </a>
+                                                <img loading="lazy" decoding="async" width="1024" height="753" src="/img/dragon2-1024x753.png" class="attachment-post-thumbnail size-post-thumbnail has-transparency wp-post-image" alt srcset="/img/dragon2-1024x753.png 1024w, /img/dragon2-300x220.png 300w, /img/dragon2-768x564.png 768w, /img/dragon2.png 1045w" sizes="auto, (max-width: 1024px) 100vw, 1024px" data-has-transparency="true" data-dominant-color="8e6646" style="--dominant-color: #8e6646;" /> </a>
                                         </div>
                                         <div class="col-padding col-padding-xs">
                                             <h3 class="post-title space-bottom-small">
@@ -222,7 +222,7 @@
                                     <div class="post-content card y-move bordered">
                                         <div class="post-thumbnail">
                                             <a href="/discord-bot-live/" class="post-list-item-thumb ">
-                                                <img loading="lazy" decoding="async" width="1024" height="754" src="/wp-content/uploads/2023/12/port-obligan-1024x754.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt srcset="/wp-content/uploads/2023/12/port-obligan-1024x754.jpg 1024w, /wp-content/uploads/2023/12/port-obligan-300x221.jpg 300w, /wp-content/uploads/2023/12/port-obligan-768x566.jpg 768w, /wp-content/uploads/2023/12/port-obligan-1536x1131.jpg 1536w, /wp-content/uploads/2023/12/port-obligan-1467x1080.jpg 1467w, /wp-content/uploads/2023/12/port-obligan.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /> </a>
+                                                <img loading="lazy" decoding="async" width="1024" height="754" src="/img/port-obligan-1024x754.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt srcset="/img/port-obligan-1024x754.jpg 1024w, /img/port-obligan-300x221.jpg 300w, /img/port-obligan-768x566.jpg 768w, /img/port-obligan-1536x1131.jpg 1536w, /img/port-obligan-1467x1080.jpg 1467w, /img/port-obligan.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /> </a>
                                         </div>
                                         <div class="col-padding col-padding-xs">
                                             <h3 class="post-title space-bottom-small">
