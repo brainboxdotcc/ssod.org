@@ -62,10 +62,6 @@
     /** cached kirki style */@media screen and (min-width: 768px){.header-homepage{background-position:center center;}.header{background-position:center center;}}.header-homepage:not(.header-slide).color-overlay:before{background:#000000;}.header-homepage:not(.header-slide) .background-overlay,.header-homepage:not(.header-slide).color-overlay::before{opacity:0.1;}.header.color-overlay:before{background:#000000;}.header .background-overlay,.header.color-overlay::before{opacity:0.75;}.header-homepage .header-description-row{padding-top:0%;padding-bottom:0%;}.inner-header-description{padding-top:8%;padding-bottom:8%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:10%;padding-bottom:15%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:80%!important;}.inner-header-description{text-align:center!important;}}
 </style>
 <link rel="stylesheet" id="mesmerize-fonts-css" href="" data-href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Clatin-ext&amp;display=swap" type="text/css" media="all">
-<script type="text/javascript" src="https://www.ssod.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www.ssod.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<link rel="alternate" type="application/json+oembed" href="https://www.ssod.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ssod.org%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.ssod.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ssod.org%2F&amp;format=xml">
 <style data-name="header-overlap-with">
     @media screen and (min-width: 768px) {
         .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
@@ -78,7 +74,7 @@
     }
 </style>
 <script type="application/ld+json" class="ez-toc-schema-markup-output">
-    {"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Take Part In An Epic Quest","url":"https://www.ssod.org/#take-part-in-an-epic-quest"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Discover vast treasure and hidden secrets","url":"https://www.ssod.org/#discover-vast-treasure-and-hidden-secrets"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Stuck? We are here!","url":"https://www.ssod.org/#stuck-we-are-here"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"News And Updates","url":"https://www.ssod.org/#news-and-updates"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Bot Now Listed in Application Directory","url":"https://www.ssod.org/#bot-now-listed-in-application-directory"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Discord Bot Live","url":"https://www.ssod.org/#discord-bot-live"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Background Story","url":"https://www.ssod.org/#background-story"}]}
+    {"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Take Part In An Epic Quest","url":"/#take-part-in-an-epic-quest"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Discover vast treasure and hidden secrets","url":"/#discover-vast-treasure-and-hidden-secrets"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Stuck? We are here!","url":"/#stuck-we-are-here"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"News And Updates","url":"/#news-and-updates"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Bot Now Listed in Application Directory","url":"/#bot-now-listed-in-application-directory"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Discord Bot Live","url":"/#discord-bot-live"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Background Story","url":"/#background-story"}]}
 </script>
 <style type="text/css" data-name="custom-mobile-image-position">
     @media screen and (max-width: 767px) {
@@ -103,10 +99,10 @@
 <style type="text/css" id="custom-background-css">
     body.custom-background { background-color: #111111; }
 </style>
-<link rel="icon" href="https://www.ssod.org/wp-content/uploads/2024/03/cropped-ssod-new-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://www.ssod.org/wp-content/uploads/2024/03/cropped-ssod-new-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://www.ssod.org/wp-content/uploads/2024/03/cropped-ssod-new-180x180.png" />
-<meta name="msapplication-TileImage" content="https://www.ssod.org/wp-content/uploads/2024/03/cropped-ssod-new-270x270.png" />
+<link rel="icon" href="/img/cropped-ssod-new-32x32.png" sizes="32x32" />
+<link rel="icon" href="/img/cropped-ssod-new-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/img/cropped-ssod-new-180x180.png" />
+<meta name="msapplication-TileImage" content="/img/cropped-ssod-new-270x270.png" />
 @vite('resources/scss/app.scss')
 <style type="text/css" id="wp-custom-css">
     @import url('https://fonts.googleapis.com/css?family=New+Rocker&display=swap');

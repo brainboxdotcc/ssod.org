@@ -15,7 +15,6 @@
 <div id="page" class="site">
     @yield('content')
 </div>
-<script type="text/javascript" defer="defer" src="https://www.ssod.org/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.0.29" id="mesmerize-theme-js"></script>
 <script type="module">
     if (window.location.hash !== "#embed" && typeof CookieConsent !== 'undefined') {
         CookieConsent.run({
