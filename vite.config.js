@@ -12,8 +12,6 @@ export default defineConfig({
             'resources/css/wordpress.css',
             'resources/js/bootstrap.js',
             'resources/js/app.js',
-            'resources/js/premium.js',
-            'resources/js/premium-verify.js',
         ],
         refresh: true,
     }), viteStaticCopy({

@@ -131,7 +131,7 @@
     .hero-title {
         text-shadow: 2px 2px 2px #CECECE;
     }
-    .logo-above-menu, .footer-content {
+    .logo-above-menu {
         display: none !important;
     }
     #regulatory-buttons {
