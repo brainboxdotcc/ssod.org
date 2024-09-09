@@ -14,14 +14,8 @@ window.$ = window.jQuery = $;
 import _ from 'lodash';
 window._ = _;
 
-import select2 from 'select2';
-select2();
-
 import * as bootstrap from 'bootstrap';
 window.bootstrap = bootstrap;
-
-import DataTable from 'datatables.net-bs5';
-window.DataTable = DataTable;
 
 const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
 const popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
