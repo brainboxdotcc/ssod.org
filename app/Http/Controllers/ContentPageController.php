@@ -2,13 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use App\Models\FrequentlyAskedQuestion;
-use App\Models\News;
-use App\Models\Page;
-use Illuminate\Http\Response;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
 use Illuminate\View\View;
 
 class ContentPageController extends Controller

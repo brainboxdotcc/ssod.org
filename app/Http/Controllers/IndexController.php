@@ -2,16 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use App\Models\News;
-use Illuminate\Support\Facades\Request;
-use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\View\View;
 
 class IndexController extends Controller
 {
-    public function index(Request $request)
+    public function index(): View
     {
-        $news = News::query()->orderByDesc("created_at")->limit(3)->get();
+        $news = Cache::remember("front_page.news", 3600, fn() => News::query()->orderByDesc("created_at")->limit(3)->get());
         return view("frontpage.index",
             [
                 'news' => $news,

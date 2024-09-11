@@ -17,7 +17,6 @@ Route::get('/discord-bot-commands',[ContentPageController::class, 'botCommands']
 Route::get('/blog', [BlogPageController::class, 'blogIndex']);
 
 Route::get('/sitemap.xml', [SitemapController::class, 'siteMap']);
-Route::get('/sitemap-author.xml', [SitemapController::class, 'siteMap']);
 Route::get('/sitemap-custom.xml', [SitemapController::class, 'siteMap']);
 Route::get('/sitemap-news.xml', [SitemapController::class, 'siteMap']);
 Route::get('/sitemap-posttype-page.xml', [SitemapController::class, 'siteMap']);
@@ -25,6 +24,10 @@ Route::get('/sitemap-posttype-post.xml', [SitemapController::class, 'siteMap']);
 Route::get('/sitemap-root.xml', [SitemapController::class, 'siteMap']);
 
 Route::post('/error-tracing', [ErrorTracingController::class, 'sentryProxy']);
+
+Route::get('/wp-admin', function() {
+    return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1", 301);
+});
 
 /**
  * Data driven pages from news and pages tables

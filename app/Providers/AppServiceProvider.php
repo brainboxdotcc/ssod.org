@@ -19,6 +19,5 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Environment::configure(config("chargebee.site"), config("chargebee.api_key"));
     }
 }

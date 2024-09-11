@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\News;
 use App\Models\Page;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
 
@@ -28,7 +29,7 @@ class BlogPageController extends Controller
     public function blogIndex(Request $request): View
     {
         return view("content.blog-index", [
-            "posts" => News::query()->orderByDesc("created_at")->get(),
+            "posts" => Cache::remember("blog.index", 3600, fn() => News::query()->orderByDesc("created_at")->get()),
             "page_title" => "Discord Roleplay Bot Development Blog",
             "page_meta_desc" => "The Seven Spells Of Destruction Discord Bot is a unique and different multiplayer role playing game. Bored of idle RPG and clickers? Try this.",
             "page_image" => "/img/cropped-background-scaled-1.jpg",
