@@ -103,7 +103,7 @@
                 <div class="gridContainer">
                     <div class="row middle-sm">
                         <div class="col-sm-6 space-bottom-xs space-top-xs">
-                            <img decoding="async" class="shadow-large" src="/img/cropped-the-wizards-keep-768x431.webp">
+                            <img decoding="async" class="shadow-large" src="/img/cropped-the-wizards-keep-768x431.webp" alt="">
                         </div>
                         <div class="col-sm-6">
                             <h2>Discover vast treasure and hidden secrets</h2>
@@ -162,8 +162,8 @@
                                     <div id="post-{{ $newsItem->id }}" class="col-sm-6 col-md-4 space-bottom space-bottom-xs">
                                         <div class="post-content card y-move bordered">
                                             <div class="post-thumbnail">
-                                                <a href="/{{ $newsItem->url }}/" class="post-list-item-thumb">
-                                                    <img src="{{ $newsItem->image }}" class="attachment-post-thumbnail size-post-thumbnail has-transparency wp-post-image" />
+                                                <a href="/{{ $newsItem->url }}/" class="post-list-item-thumb" title="{{ $newsItem->title }}">
+                                                    <img src="{{ $newsItem->image }}" class="attachment-post-thumbnail size-post-thumbnail has-transparency wp-post-image" alt="" title="{{ $newsItem->title }}" />
                                                 </a>
                                             </div>
                                             <div class="col-padding col-padding-xs">
