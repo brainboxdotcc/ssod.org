@@ -5,12 +5,20 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\News;
 use Illuminate\Support\Facades\Request;
+use Illuminate\Support\Str;
 
 class IndexController extends Controller
 {
     public function index(Request $request)
     {
         $news = News::query()->orderByDesc("created_at")->limit(3)->get();
-        return view("frontpage.index", ['news' => $news]);
+        return view("frontpage.index",
+            [
+                'news' => $news,
+                "page_title" => 'Discord RPG Bot',
+                "page_meta_desc" => 'Invite The Seven Spells Of Destruction to play a unique multiplayer open world role playing game on Discord. Explore a vast fantastical world!',
+                "page_image" => '/img/app_encyclopaedia.jpg',
+            ]
+        );
     }
 }

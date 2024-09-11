@@ -14,6 +14,7 @@ use Illuminate\Support\Collection;
  * @property mixed $url
  * @property BelongsTo|null $children
  * @property mixed $content
+ * @property mixed $image
  */
 class Page extends Model
 {

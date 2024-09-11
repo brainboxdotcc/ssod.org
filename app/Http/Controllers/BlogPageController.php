@@ -15,7 +15,24 @@ class BlogPageController extends Controller
         $url = preg_replace("#^/#", "", $request->getPathInfo());
         /** @var News $post */
         $post = News::query()->where("url", "=", $url)->first();
-        return view("content.blog", ["post" => $post, "prev" => $post->prev(), "next" => $post->next()]);
+        return view("content.blog", [
+            "post" => $post,
+            "prev" => $post->prev(),
+            "next" => $post->next(),
+            "page_title" => $post->title,
+            "page_meta_desc" => Str::limit(strip_tags($post->content), 212, '...'),
+            "page_image" => $post->image,
+        ]);
+    }
+
+    public function blogIndex(Request $request): View
+    {
+        return view("content.blog-index", [
+            "posts" => News::query()->orderByDesc("created_at")->get(),
+            "page_title" => "Discord Roleplay Bot Development Blog",
+            "page_meta_desc" => "The Seven Spells Of Destruction Discord Bot is a unique and different multiplayer role playing game. Bored of idle RPG and clickers? Try this.",
+            "page_image" => "/img/cropped-background-scaled-1.jpg",
+        ]);
     }
 
     public function nonBlogPage(Request $request): View
@@ -46,7 +63,10 @@ class BlogPageController extends Controller
             "post" => $post,
             "parent" => $post->parent,
             "children" => $children,
-            "headings" => $headings
+            "headings" => $headings,
+            "page_title" => $post->title,
+            "page_meta_desc" =>  Str::limit(strip_tags($post->content), 212, '...'),
+            "page_image" => $post->image,
         ]);
     }
 

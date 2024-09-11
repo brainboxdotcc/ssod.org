@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @property mixed $created_at
+ * @property mixed $title
+ * @property mixed $content
+ * @property mixed $image
  */
 class News extends Model
 {

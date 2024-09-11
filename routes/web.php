@@ -12,6 +12,8 @@ use Illuminate\Support\Str;
 
 Route::get('/',[IndexController::class, 'index']);
 Route::get('/frequently-asked-questions',[ContentPageController::class, 'frequentlyAskedQuestions']);
+Route::get('/discord-bot-commands',[ContentPageController::class, 'botCommands']);
+Route::get('/blog', [BlogPageController::class, 'blogIndex']);
 Route::post('/error-tracing', [ErrorTracingController::class, 'sentryProxy']);
 
 try {

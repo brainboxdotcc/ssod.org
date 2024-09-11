@@ -4,7 +4,7 @@
         <ul class="ez-toc-list ez-toc-list-level-1 ">
             @foreach ($entries as $entry)
                 <li class="ez-toc-page-1 ez-toc-heading-level-2">
-                    <a class="ez-toc-link ez-toc-heading-1" href="#{{ Str::kebab($entry) }}" title="{{ $entry }}">{{ $entry }}</a>
+                    <a class="ez-toc-link ez-toc-heading-1" href="#{{ Str::kebab(str_replace(['.',':','?','/','[',']','<','>'], '', $entry)) }}" title="{{ $entry }}">{{ $entry }}</a>
                 </li>
             @endforeach
         </ul>
