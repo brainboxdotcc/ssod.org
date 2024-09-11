@@ -19,6 +19,21 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
                         <div class="post-list row">
+                            <div id="post-0" class="post-0 post type-post format-standard has-post-thumbnail hentry category-website">
+                                <div class="yoast-breadcrumbs">
+                                   <span>
+                                       <span>
+                                           <a href="/">Home</a>
+                                       </span>
+                                           »
+                                       <span>
+                                           <a href="/blog">Development Blog</a>
+                                       </span>
+                                   </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-list row">
                             @foreach ($posts as $post)
                                 <div id="post-{{ $post->id }}">
                                     <div class="post-container">
@@ -41,7 +56,7 @@
                                                         <div class="row post-meta small">
                                                             <div class="col-md-10 col-xs-9">
                                                                 <ul class="is-bar">
-                                                                    <li>by <a href="https://www.ssod.org/author/{{ Str::lower($post->author) }}/" title="Posts by {{ $post->author }}" rel="author">{{ $post->author }}</a></li>
+                                                                    <li>by <a href="/" rel="author">{{ $post->author }}</a></li>
                                                                     <li>on {{$post->created_at->format('jS F Y') }}</li>
                                                                 </ul>
                                                             </div>

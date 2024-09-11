@@ -21,11 +21,26 @@
                         <div class="post-item post-item-single">
                             <div id="post-293" class="post-{{ $post->id }} post type-post status-publish format-standard has-post-thumbnail hentry category-website">
                                 <div class="post-content-single">
+                                    <div class="yoast-breadcrumbs mb-3">
+                                        <span>
+                                            <span>
+                                                <a href="/">Home</a>
+                                            </span>
+                                            »
+                                            <span>
+                                                <a href="/blog">Development Blog</a>
+                                            </span>
+                                            »
+                                            <span>
+                                                <a href="/{{ $post->url }}">{{ $post->title }}</a>
+                                            </span>
+                                        </span>
+                                    </div>
                                     <h2>{{ $post->title }}</h2>
                                     <div class="row post-meta small">
                                         <div class="col-12">
                                             <ul class="is-bar">
-                                                <li>by <a href="/author/{{ Str::lower($post->author) }}/" title="Posts by {{ $post->author }}" rel="author">{{ $post->author }}</a></li>
+                                                <li>by <a href="/blog/" rel="author">{{ $post->author }}</a></li>
                                                 <li>on {{$post->created_at->format('jS F Y') }}</li>
                                             </ul>
                                         </div>

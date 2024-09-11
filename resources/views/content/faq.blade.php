@@ -16,6 +16,19 @@
     </div>
     <div id="page-content" class="page-content">
         <div class="gridContainer content">
+            <div id="post-0" class="post-0 post type-post format-standard has-post-thumbnail hentry category-website">
+                <div class="yoast-breadcrumbs">
+                   <span>
+                       <span>
+                           <a href="/">Home</a>
+                       </span>
+                           »
+                       <span>
+                           <a href="/frequently-asked-questions">Freqently Asked Questions</a>
+                       </span>
+                   </span>
+                </div>
+            </div>
             <div id="post-293" class="post-293 page type-page status-publish has-post-thumbnail hentry">
                 <div>
                     @include('includes.toc', ['entries' => $faq->pluck('question')])
