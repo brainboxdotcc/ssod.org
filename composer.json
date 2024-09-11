@@ -2,8 +2,8 @@
     "name": "brainboxdotcc/ssod.org",
     "type": "project",
     "description": "SSOD Front Pages",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "keywords": ["seven spells", "RPG", "frontend"],
+    "license": "Proprietary",
     "require": {
         "php": "^8.3",
         "ext-curl": "*",
