@@ -505,3 +505,45 @@ img.wp-post-image {
         }
     }
 }
+
+.hero-title {
+    font-family: 'New Rocker', cursive !important;
+}
+h2 {
+    font-size: 2.2em;
+    font-weight: 600;
+}
+code {
+    padding: .2rem .2rem !important;
+    background-color: #3d4270;
+    color: #c0cdf2;
+    font-weight: 600;
+    font-family: inherit;
+    border-radius: 4px;
+}
+h2 strong {
+    font-weight: 600 !important;
+}
+.hero-title {
+    text-shadow: 2px 2px 2px #CECECE;
+}
+.logo-above-menu {
+    display: none !important;
+}
+#regulatory-buttons {
+    background-attachment: fixed;
+}
+.mesmerize-inner-page .page-content,
+.mesmerize-inner-page .content,
+.mesmerize-front-page.mesmerize-content-padding .page-content {
+    background-color: #111111;
+}
+.screen-reader-text[href="#page-content"]:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    clip-path: none;
+    color: #21759b;
+
+}

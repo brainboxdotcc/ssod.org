@@ -41,13 +41,13 @@
         </script>
     </div>
     <div class="header-wrapper">
-        <div class="header-homepage  color-overlay" style="; background-image:url(/img/background-scaled.jpg); background-color:#111111">
+        <div class="header-homepage  color-overlay" style="; background-image:url(/img/background-scaled.webp); background-color:#111111">
 
             <div class="navigation-wrapper d-lg-block d-xl-block d-xxl-block d-none">
                 <div class="row basis-auto">
                     <div class="col-xs col-sm-fit">
                         <a href="/" class="custom-logo-link">
-                            <img style="width: auto; height: 235px; padding-top: 1em" src="/img/steam_library_logo_640x360.png" class="custom-logo" alt="The Seven Spells Of Destruction Discord RPG Bot">
+                            <img style="width: auto; height: 235px; padding-top: 1em" src="/img/steam_library_logo_640x360.webp" class="custom-logo" alt="The Seven Spells Of Destruction Discord RPG Bot">
                         </a>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <img decoding="async" class="shadow-large" src="/img/cropped-littletown.jpg" alt="">
+                            <img decoding="async" class="shadow-large" src="/img/cropped-littletown-768x431.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                 <div class="gridContainer">
                     <div class="row middle-sm">
                         <div class="col-sm-6 space-bottom-xs space-top-xs">
-                            <img decoding="async" class="shadow-large" src="/img/cropped-the-wizards-keep.jpg">
+                            <img decoding="async" class="shadow-large" src="/img/cropped-the-wizards-keep-768x431.webp">
                         </div>
                         <div class="col-sm-6">
                             <h2>Discover vast treasure and hidden secrets</h2>
@@ -138,8 +138,8 @@
                             </a>
                         </div>
                         <div class="col-sm-7 flexbox center-xs middle-xs image-group-2-img">
-                            <img decoding="async" class="img-1 shadow-large" src="/img/cropped-cropped-mine-town.jpg" alt="">
-                            <img decoding="async" class="img-2 shadow-large" src="/img/cropped-floodplain-village.jpg" alt="">
+                            <img decoding="async" class="img-1 shadow-large" src="/img/cropped-mine-town-768x447.webp" alt="">
+                            <img decoding="async" class="img-2 shadow-large" src="/img/cropped-floodplain-village-768x592.webp" alt="">
                         </div>
                     </div>
                 </div>
