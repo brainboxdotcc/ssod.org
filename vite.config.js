@@ -7,7 +7,6 @@ export default defineConfig({
     plugins: [laravel({
         input: [
             'resources/scss/app.scss',
-            'resources/scss/premium.scss',
             'resources/css/app.css',
             'resources/css/wordpress.css',
             'resources/js/bootstrap.js',
