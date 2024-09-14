@@ -1,4 +1,4 @@
-<div data-label="Regulatory Buttons" data-id="cta--1" data-export-id="cta-blue-section-mc" data-category="cta" class="cta-blue-section-mc content-section content-section-spacing white-text" id="regulatory-buttons" style="background-color: rgb(255, 255, 255); background-size: cover; background-position: center top; background-image: url(/img/forest-of-night.jpg);">
+<div data-label="Regulatory Buttons" data-id="cta--1" data-export-id="cta-blue-section-mc" data-category="cta" class="cta-blue-section-mc content-section content-section-spacing white-text" id="regulatory-buttons" style="background-color: rgb(255, 255, 255); background-size: cover; background-position: center top; background-image: url(/img/forest-of-night.webp);">
     <div class="gridContainer">
         <div class="row middle-xs">
             <div class="col-sm-8 space-bottom-xs" data-type="column">
