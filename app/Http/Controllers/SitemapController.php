@@ -60,7 +60,7 @@ class SitemapController
                             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">>';
                 foreach (News::all() as $news) {
                     $content .= '<url>
-                                    <loc>' . htmlentities($news->url) . '</loc>
+                                    <loc>' . config("app.url") . '/' . htmlentities($news->url) . '</loc>
                                     <priority>0.8</priority>
                                     <lastmod>' . date('Y-m-d\TH:i:s+00:00', strtotime($news->created_at)) . '</lastmod>
                                     <image:image>
@@ -76,7 +76,7 @@ class SitemapController
                             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">>';
                 foreach (Page::all() as $page) {
                     $content .= '<url>
-                                    <loc>' . htmlentities($page->url) . '</loc>
+                                    <loc>' . config("app.url") . '/' . htmlentities($page->url) . '</loc>
                                     <priority>0.8</priority>
                                     <lastmod>' . date('Y-m-d\TH:i:s+00:00', strtotime($page->created_at)) . '</lastmod>
                                     <image:image>
