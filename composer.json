@@ -7,7 +7,6 @@
     "require": {
         "php": "^8.3",
         "ext-curl": "*",
-        "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "sentry/sentry-laravel": "^4.4"
     },
