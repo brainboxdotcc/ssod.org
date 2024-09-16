@@ -10,11 +10,11 @@
     img.logo.dark, img.custom-logo{width:auto;max-height:256px !important;}
     /** cached kirki style */@media screen and (min-width: 768px){.header-homepage{background-position:center center;}.header{background-position:center center;}}.header-homepage:not(.header-slide).color-overlay:before{background:#000000;}.header-homepage:not(.header-slide) .background-overlay,.header-homepage:not(.header-slide).color-overlay::before{opacity:0.1;}.header.color-overlay:before{background:#000000;}.header .background-overlay,.header.color-overlay::before{opacity:0.75;}.header-homepage .header-description-row{padding-top:0%;padding-bottom:0%;}.inner-header-description{padding-top:8%;padding-bottom:8%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:10%;padding-bottom:15%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:80%!important;}.inner-header-description{text-align:center!important;}}
     @media screen and (min-width: 768px) {
-        .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
+        .ssod-front-page.overlap-first-section:not(.ssod-front-page-with-slider) .header-homepage {
             padding-bottom: 95px;
         }
 
-        .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .page-content div[data-overlap]:first-of-type > div:not([class*="section-separator"]) {
+        .ssod-front-page.overlap-first-section:not(.ssod-front-page-with-slider) .page-content div[data-overlap]:first-of-type > div:not([class*="section-separator"]) {
             margin-top: -95px;
         }
     }
@@ -28,7 +28,7 @@
     body.custom-background { background-color: #111111; }
 </style>
 @vite('resources/css/wordpress.css')
-<link rel="stylesheet" id="mesmerize-fonts-css" href="" data-href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Clatin-ext&amp;display=swap" type="text/css" media="all">
+<link rel="stylesheet" id="ssod-fonts-css" href="" data-href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Clatin-ext&amp;display=swap" type="text/css" media="all">
 <script type="application/ld+json" class="ez-toc-schema-markup-output">
     {"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Take Part In An Epic Quest","url":"/#take-part-in-an-epic-quest"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Discover vast treasure and hidden secrets","url":"/#discover-vast-treasure-and-hidden-secrets"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Stuck? We are here!","url":"/#stuck-we-are-here"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"News And Updates","url":"/#news-and-updates"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Bot Now Listed in Application Directory","url":"/#bot-now-listed-in-application-directory"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Discord Bot Live","url":"/#discord-bot-live"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#ez-toc","name":"Background Story","url":"/#background-story"}]}
 </script>

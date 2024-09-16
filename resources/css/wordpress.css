@@ -6048,7 +6048,7 @@ img.logo.dark {
     position: relative;
     z-index: 50;
 }
-.mesmerize-front-page.only-template .header-description {
+.ssod-front-page.only-template .header-description {
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -6076,7 +6076,7 @@ img.logo.dark {
         height: 100%;
     }
 
-    .mesmerize-front-page .header-description-row > div {
+    .ssod-front-page .header-description-row > div {
         display: flex;
     }
     .logo_col {
@@ -6481,12 +6481,12 @@ h6:first-child {
     margin-bottom: -1px;
     color: #8e9dae;
 }
-.footer .mesmerize-theme-link {
+.footer .ssod-theme-link {
     color: inherit;
     text-decoration: none;
     border-bottom: none;
 }
-.footer .mesmerize-theme-link:hover {
+.footer .ssod-theme-link:hover {
     color: inherit;
     border-bottom: none;
     text-decoration: underline;
@@ -6710,30 +6710,30 @@ body {
         padding-bottom: 3rem;
     }
 }
-.mesmerize-content-padding #page > .page-content,
-.mesmerize-inner-page #page > .page-content {
+.ssod-content-padding #page > .page-content,
+.ssod-inner-page #page > .page-content {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
-.mesmerize-content-padding #page > .page-content.no-padding,
-.mesmerize-inner-page #page > .page-content.no-padding {
+.ssod-content-padding #page > .page-content.no-padding,
+.ssod-inner-page #page > .page-content.no-padding {
     padding: 0 !important;
 }
 @media (max-width: 768px) {
-    .mesmerize-content-padding #page > .page-content,
-    .mesmerize-inner-page #page > .page-content {
+    .ssod-content-padding #page > .page-content,
+    .ssod-inner-page #page > .page-content {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
 }
-.mesmerize-content-no-padding .content,
-.mesmerize-content-no-padding .page-content {
+.ssod-content-no-padding .content,
+.ssod-content-no-padding .page-content {
     padding-top: 0;
     padding-bottom: 0;
 }
-.mesmerize-front-page.mesmerize-content-padding .page-content,
-.mesmerize-inner-page .content,
-.mesmerize-inner-page .page-content,
+.ssod-front-page.ssod-content-padding .page-content,
+.ssod-inner-page .content,
+.ssod-inner-page .page-content,
 body.custom-background {
     background-color: #f5fafd;
 }
@@ -7836,23 +7836,23 @@ table th {
     text-shadow: 0 0 0 currentColor;
 }
 
-.mesmerize-language-switcher.after-menu select {
+.ssod-language-switcher.after-menu select {
     display: block;
     margin: 10px;
 }
-ul.mesmerize-language-switcher.after-menu > li {
+ul.ssod-language-switcher.after-menu > li {
     display: none;
     float: left;
     padding: 14px 8px;
     font-size: 0;
     line-height: 0;
 }
-ul.mesmerize-language-switcher.after-menu.hover > li,
-ul.mesmerize-language-switcher.after-menu:hover > li,
-ul.mesmerize-language-switcher.after-menu > li.current-lang {
+ul.ssod-language-switcher.after-menu.hover > li,
+ul.ssod-language-switcher.after-menu:hover > li,
+ul.ssod-language-switcher.after-menu > li.current-lang {
     display: block;
 }
-ul.mesmerize-language-switcher.after-menu span {
+ul.ssod-language-switcher.after-menu span {
     display: none;
 }
 .sr-only {

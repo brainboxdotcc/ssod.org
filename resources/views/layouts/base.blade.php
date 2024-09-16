@@ -8,7 +8,7 @@
     @yield('local_styles')
     @vite('resources/js/app.js')
 </head>
-<body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-5 custom-background wp-custom-logo overlap-first-section mesmerize-front-page mesmerize-content-no-padding">
+<body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-5 custom-background wp-custom-logo overlap-first-section ssod-front-page ssod-content-no-padding">
 <a class="skip-link screen-reader-text" href="#page-content">Skip to content</a>
 <div id="page-top" class="header-top homepage">
 </div>
