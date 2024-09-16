@@ -40,7 +40,7 @@ class SitemapController
                             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" >';
                 foreach (News::all() as $news) {
                     $content .= '<url>
-                                    <loc>' . htmlentities($news->url) . '</loc>
+                                    <loc>' . config("app.url") . '/' . htmlentities($news->url) . '</loc>
                                     <news:news>
                                         <news:publication>
                                             <news:name>' . env("APP_NAME") . '</news:name>
