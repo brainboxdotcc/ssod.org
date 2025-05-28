@@ -575,7 +575,6 @@ h6.has-text-align-right[style*="writing-mode"]:where([style*="vertical-rl"]) {
 .wp-block-image.alignleft > figcaption,
 .wp-block-image.alignright > figcaption {
     caption-side: bottom;
-    display: table-caption;
 }
 
 .wp-block-image :where(figcaption) {
