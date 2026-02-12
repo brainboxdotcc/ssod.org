@@ -18,7 +18,7 @@
         "@sentry/vite-plugin": "^2.22.2",
         "bootstrap": "^5.3.2",
         "jquery": "^3.7.1",
-        "lodash": "^4.17.21",
+        "lodash": "^4.17.23",
         "toastr": "^2.1.4",
         "vanilla-cookieconsent": "^2.9.2",
         "vite-plugin-static-copy": "^0.17.0"
