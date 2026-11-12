@@ -541,3 +541,45 @@ h2 strong {
     color: #21759b;
 
 }
+
+.header-homepage:has(.play-dropdown[open]) {
+    z-index: 2;
+}
+
+.play-dropdown {
+    display: inline-block;
+
+    summary {
+        display: inline-block;
+        cursor: pointer;
+        list-style: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+    }
+
+    .play-dropdown-menu {
+        position: absolute;
+        z-index: 100;
+        min-width: 220px;
+        padding: 6px;
+        background: #202027;
+        border: 1px solid #555;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px #0008;
+
+        a {
+            display: block;
+            padding: 12px 14px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            white-space: nowrap;
+
+            &:hover {
+                background: #39343f;
+            }
+        }
+    }
+}
