@@ -59,19 +59,19 @@
                         <div class="align-holder center">
                             <div class="d-sm-block" style="height: 140px !important"></div>
                             <h1 class="hero-title" style="">Seven Spells of Destruction: A Multiplayer Fantasy RPG</h1>
-                            <p class="header-subtitle">Explore the fantastical world of Cryptillia in a multiplayer, open-world fantasy RPG. Play directly in your browser or on Discord!</p>
+                            <p class="header-subtitle">Explore the fantastical world of Cryptillia in a multiplayer, text-based fantasy RPG. Play directly in your browser, on your desktop or on Discord!</p>
                             <div class="header-buttons-wrapper">
-<details class="play-dropdown">
-    <summary class="button big color1 round customize-unpreviewable">
-        Play Now ▾
-    </summary>
-    <div class="play-dropdown-menu">
-        <a href="https://play.ssod.org/">Play in your browser</a>
-        <a href="https://discord.com/oauth2/authorize?client_id=620654573547159553&amp;scope=bot%20applications.commands&amp;permissions=414464609344&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fadmin.ssod.org%2Ftrack%2F%3Fsource%3Ddirect" target="_blank" rel="noopener">
-            Play on Discord
-        </a>
-    </div>
-</details>
+                                <details class="play-dropdown">
+                                    <summary class="button big color1 round customize-unpreviewable">
+                                        Play Now ▾
+                                    </summary>
+                                    <div class="play-dropdown-menu">
+                                        <a href="https://play.ssod.org/">Play in your browser</a>
+                                        <a href="https://store.steampowered.com/app/1146240/The_Seven_Spells_Of_Destruction/">Download on Steam</a>
+                                        <a href="https://brainbox.itch.io/seven-spells-of-destruction">Download on itch.io</a>
+                                        <a href="https://discord.com/oauth2/authorize?client_id=620654573547159553&amp;scope=bot%20applications.commands&amp;permissions=414464609344&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fadmin.ssod.org%2Ftrack%2F%3Fsource%3Ddirect" target="_blank" rel="noopener">Play on Discord</a>
+                                    </div>
+                            </details>
                                 <a class="button big color-white round outline customize-unpreviewable" href="https://premium.ssod.org">
                                     Get Premium
                                 </a>
