@@ -10,12 +10,22 @@ class ContentPageController extends Controller
 {
     public function frequentlyAskedQuestions(Request $request): View
     {
-        $faq = FrequentlyAskedQuestion::all()->sortBy("created_at");
+        $categories = [
+            'getting-started' => 'Getting Started & Platforms',
+            'gameplay' => 'Gameplay & Characters',
+            'support' => 'Discord, Premium & Support',
+        ];
+
+        $faq = FrequentlyAskedQuestion::orderBy('created_at')
+            ->get()
+            ->groupBy('category');
+
         return view(
             "content.faq", [
                 "faq" => $faq,
-                "page_title" => "Roleplay Bot Frequently Asked Questions",
-                "page_meta_desc" =>  'Frequently asked questions for the Seven Spells Of Destruction Discord RPG Bot, play today and become all-powerful!',
+                "categories" => $categories,
+                "page_title" => "Seven Spells Frequently Asked Questions",
+                "page_meta_desc" => "Frequently asked questions about Seven Spells of Destruction, including gameplay, Steam, itch.io, browser and Discord.",
                 "page_image" => '/img/dragon2.png',
             ]
         );

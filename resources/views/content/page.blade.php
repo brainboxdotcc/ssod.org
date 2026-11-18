@@ -42,7 +42,7 @@
                                     </div>
                                     @if ($children->exists())
                                         <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-                                        <ul style="text-transform:capitalize;" class="wp-block-page-list has-small-font-size">
+                                        <ul class="ssod-page-list wp-block-page-list has-small-font-size">
                                             @foreach ($children->orderBy("created_at")->get() as $child)
                                                 <li class="wp-block-pages-list__item @if($child->children()->count()) has-child @endif">
                                                     <a class="wp-block-pages-list__item__link" href="/{{ $child->url }}/">

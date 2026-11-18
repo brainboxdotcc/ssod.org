@@ -41,13 +41,13 @@
         </script>
     </div>
     <div class="header-wrapper">
-        <div class="header-homepage  color-overlay" style="; background-image:url(/img/background-scaled.webp); background-color:#111111">
+        <div class="header-homepage color-overlay" style="background-image:url(/img/background-scaled.webp); background-color:#111111">
 
             <div class="navigation-wrapper d-lg-block d-xl-block d-xxl-block d-none">
                 <div class="row basis-auto">
                     <div class="col-xs col-sm-fit">
                         <a href="/" class="custom-logo-link">
-                            <img style="width: auto; height: 235px; padding-top: 1em" src="/img/steam_library_logo_640x360.webp" class="custom-logo" alt="The Seven Spells Of Destruction Discord RPG Bot">
+                            <img src="/img/steam_library_logo_640x360.webp" class="ssod-hero-logo custom-logo" alt="The Seven Spells Of Destruction Discord RPG Bot">
                         </a>
                     </div>
                 </div>
@@ -57,8 +57,8 @@
                 <div class="row header-description-row middle-sm">
                     <div class="header-content header-content-centered col-md col-xs-12">
                         <div class="align-holder center">
-                            <div class="d-sm-block" style="height: 140px !important"></div>
-                            <h1 class="hero-title" style="">Seven Spells of Destruction: A Multiplayer Fantasy RPG</h1>
+                            <div class="ssod-hero-spacer d-sm-block"></div>
+                            <h1 class="hero-title">Seven Spells of Destruction: A Multiplayer Fantasy RPG</h1>
                             <p class="header-subtitle">Explore the fantastical world of Cryptillia in a multiplayer, text-based fantasy RPG. Play directly in your browser, on your desktop or on Discord!</p>
                             <div class="header-buttons-wrapper">
                                 <details class="play-dropdown">
@@ -84,15 +84,15 @@
     </div>
     <div id="page-content" class="page-content">
         <div class="content">
-            <div id="attract-1" style="background-color: #f5fafd;" class="content-7-mc content-section content-section-spacing">
+            <div id="attract-1" class="ssod-attract-light content-7-mc content-section content-section-spacing">
                 <div class="gridContainer">
                     <div class="row middle-sm">
                         <div class="col-sm-6 space-bottom-xs">
                             <h2 class>Take Part In An Epic Quest</h2>
                             <p>
                                 Save the land of Cryptillia from a threat beyond imagining in Brainbox.cc’s latest game, an open world,
-                                multiplayer role playing game for Discord. Available to play right now on Discord, you can take part in
-                                the game today by inviting the bot. Click here to find out more about the bot and the game.
+                                text-based multiplayer role playing game. Available to play right now in your browser, on your desktop, or via Discord,
+                                you can take part in the game today by clicking play now. Click below to find out more about the game.
                             </p>
                             <a class="button blue" href="/frequently-asked-questions" rel="noopener">
                                 FREQUENTLY ASKED QUESTIONS
@@ -107,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div id="attract-2" style="background-color: #ffffff;" class="content-8-mc content-section content-section-spacing">
+            <div id="attract-2" class="ssod-attract-white content-8-mc content-section content-section-spacing">
                 <div class="gridContainer">
                     <div class="row middle-sm">
                         <div class="col-sm-6 space-bottom-xs space-top-xs">
@@ -128,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about-4 content-section content-section-spacing" id="attract-3" style="background-color: rgb(245, 250, 253)">
+            <div class="ssod-attract-pale about-4 content-section content-section-spacing" id="attract-3">
                 <div class="gridContainer">
                     <div class="row middle-sm text-center">
                         <div class="col-sm-5 space-bottom-xs content-left-sm">
@@ -152,7 +152,7 @@
                     </div>
                 </div>
             </div>
-            <div id="news-and-updates" style="background-color: rgb(245, 250, 253); background-image: none" class="blog-section-mc blog-section-standard content-section content-section-spacing">
+            <div id="news-and-updates" class="ssod-news-background blog-section-mc blog-section-standard content-section content-section-spacing">
                 <div class="gridContainer">
                     <div class="row">
                         <div class="section-title-col">

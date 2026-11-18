@@ -46,7 +46,7 @@
                                         </div>
                                     </div>
                                     <div class="post-content-inner">
-                                        <img src="{{ $post->image }}" class="space-bottom-small space-bottom-xs has-transparency wp-post-image" alt="" decoding="async" style="--dominant-color: #4a3d32;">
+                                        <img src="{{ $post->image }}" class="space-bottom-small space-bottom-xs has-transparency wp-post-image" alt="" decoding="async">
                                         {!! $post->content !!}
                                     </div>
                                     @if ($next || $prev)

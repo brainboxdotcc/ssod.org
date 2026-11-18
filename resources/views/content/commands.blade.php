@@ -4,7 +4,7 @@
 <a class="skip-link screen-reader-text" href="#page-content">Skip to content</a>
 <div id="page" class="site">
     <div class="header-wrapper">
-        <div class="header color-overlay custom-mobile-image" style="background-image:url(/img/dragon2.png); background-attachment: fixed; background-color:#111111">
+        <div class="ssod-dragon-background header color-overlay custom-mobile-image">
             <div class="inner-header-description gridContainer">
                 <div class="row header-description-row">
                     <div class="col-xs col-xs-12">

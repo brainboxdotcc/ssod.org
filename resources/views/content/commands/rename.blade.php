@@ -5,12 +5,12 @@
 </p>
 <div class="wp-block-image">
     <figure class="aligncenter size-full">
-        <img style="--dominant-color: #302e36;" decoding="async" src="/img/rename-syntax.webp" alt="" class="has-transparency">
+        <img decoding="async" src="/img/rename-syntax.webp" alt="" class="ssod-image-dominant-grey has-transparency">
     </figure>
 </div>
 <p></p>
 <div class="wp-block-image">
     <figure class="aligncenter size-full">
-        <img style="--dominant-color: #302e36;" decoding="async" src="/img/rename.webp" alt="" class="has-transparency">
+        <img decoding="async" src="/img/rename.webp" alt="" class="ssod-image-dominant-grey has-transparency">
     </figure>
 </div>

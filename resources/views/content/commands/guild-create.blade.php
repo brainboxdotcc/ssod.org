@@ -3,6 +3,6 @@
 </p>
 <div class="wp-block-image">
     <figure class="aligncenter size-full">
-        <img style="--dominant-color: #302e36;" decoding="async" src="/img/guild-create.webp" alt="" class="has-transparency">
+        <img decoding="async" src="/img/guild-create.webp" alt="" class="ssod-image-dominant-grey has-transparency">
     </figure>
 </div>
