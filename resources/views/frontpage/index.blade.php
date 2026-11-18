@@ -218,6 +218,16 @@
                     '--parallax-offset',
                     `${window.scrollY * 0.333}px`
                 );
+
+                const menuToggle = document.querySelector('.menu-toggle');
+
+                if (menuToggle) {
+                    const heroBottom = header.getBoundingClientRect().bottom;
+                    const toggleMiddle = menuToggle.getBoundingClientRect().top + menuToggle.offsetHeight / 2;
+
+                    menuToggle.classList.toggle('menu-toggle-dark', toggleMiddle > heroBottom);
+                }
+
                 ticking = false;
             }
 
