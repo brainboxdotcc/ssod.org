@@ -66,10 +66,18 @@
                                         Play Now ▾
                                     </summary>
                                     <div class="play-dropdown-menu">
-                                        <a href="https://play.ssod.org/">Play in your browser</a>
-                                        <a href="https://store.steampowered.com/app/1146240/The_Seven_Spells_Of_Destruction/">Download on Steam</a>
-                                        <a href="https://brainbox.itch.io/seven-spells-of-destruction">Download on itch.io</a>
-                                        <a href="https://discord.com/oauth2/authorize?client_id=620654573547159553&amp;scope=bot%20applications.commands&amp;permissions=414464609344&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fadmin.ssod.org%2Ftrack%2F%3Fsource%3Ddirect" target="_blank" rel="noopener">Play on Discord</a>
+                                        <a href="https://play.ssod.org/">
+                                            <i class="fas fa-window-maximize fa-fw"></i> Play in your browser
+                                        </a>
+                                        <a href="https://store.steampowered.com/app/1146240/The_Seven_Spells_Of_Destruction/">
+                                            <i class="fab fa-steam fa-fw"></i> Download on Steam
+                                        </a>
+                                        <a href="https://brainbox.itch.io/seven-spells-of-destruction">
+                                            <i class="fab fa-itch-io fa-fw"></i> Download on itch.io
+                                        </a>
+                                        <a href="https://discord.com/oauth2/authorize?client_id=620654573547159553&amp;scope=bot%20applications.commands&amp;permissions=414464609344&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fadmin.ssod.org%2Ftrack%2F%3Fsource%3Ddirect" target="_blank" rel="noopener">
+                                            <i class="fab fa-discord fa-fw"></i> Play on Discord
+                                        </a>
                                     </div>
                             </details>
                                 <a class="button big color-white round outline customize-unpreviewable" href="https://premium.ssod.org">
@@ -199,4 +207,28 @@
             @include('layouts.footer')
         </div>
     </div>
+    <script>
+        const header = document.querySelector('.header-homepage');
+
+        if (header) {
+            let ticking = false;
+
+            function updateParallax() {
+                header.style.setProperty(
+                    '--parallax-offset',
+                    `${window.scrollY * 0.333}px`
+                );
+                ticking = false;
+            }
+
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    requestAnimationFrame(updateParallax);
+                    ticking = true;
+                }
+            }, { passive: true });
+
+            updateParallax();
+        }
+    </script>
 @endsection

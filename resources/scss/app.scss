@@ -4,6 +4,7 @@
 @import 'bootstrap';
 @import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
 
 html, body {
     background: $background;
@@ -576,6 +577,11 @@ h2 strong {
             text-decoration: none;
             border-radius: 5px;
             white-space: nowrap;
+            text-align: left;
+
+            i {
+                margin-right: 8px;
+            }
 
             &:hover {
                 background: #39343f;
