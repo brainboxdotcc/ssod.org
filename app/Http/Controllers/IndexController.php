@@ -14,8 +14,8 @@ class IndexController extends Controller
         return view("frontpage.index",
             [
                 'news' => $news,
-                "page_title" => 'Discord RPG Bot',
-                "page_meta_desc" => 'Invite The Seven Spells Of Destruction to play a unique multiplayer open world role playing game on Discord. Explore a vast fantastical world!',
+                "page_title" => 'Welcome to Cryptillia!',
+                "page_meta_desc" => 'The Seven Spells Of Destruction Text-Based Multiplayer RPG',
                 "page_image" => '/img/app_encyclopaedia.jpg',
             ]
         );

@@ -47,7 +47,7 @@
                 <div class="row basis-auto">
                     <div class="col-xs col-sm-fit">
                         <a href="/" class="custom-logo-link">
-                            <img src="/img/steam_library_logo_640x360.webp" class="ssod-hero-logo custom-logo" alt="The Seven Spells Of Destruction Discord RPG Bot">
+                            <img src="/img/steam_library_logo_640x360.webp" class="ssod-hero-logo custom-logo" alt="The Seven Spells Of Destruction Multiplayer Fantasy RPG">
                         </a>
                     </div>
                 </div>
