@@ -34,8 +34,6 @@ export default defineConfig({
         port: 9999
     },
     build: {
-        cssMinify: 'esbuild',
-        minify: 'esbuild',
         chunkSizeWarningLimit: 2048,
         sourcemap: true
     }
